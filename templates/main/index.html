@@ -10,9 +10,12 @@
         {% csrf_token %}
         <input type="text" name="translate" required>
         <br>
-        <option value="Persian">Persian</option> 
-        <option value="English">English</option> 
-        <option value="German">German</option> 
+        <select required name="language">
+            <option value="Persian">Persian</option> 
+            <option value="English">English</option> 
+            <option value="German">German</option> 
+
+        </select>
     </form>
 </body>
 </html>
