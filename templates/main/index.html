@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+</head>
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <input type="text" name="translate" required>
+        <br>
+        <option value="Persian">Persian</option> 
+        <option value="English">English</option> 
+        <option value="German">German</option> 
+    </form>
+</body>
+</html>
